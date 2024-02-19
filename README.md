@@ -11,10 +11,10 @@ It returns the mapping of the network address (IP address) to a physical address
 
 From your node-red directory:
 
-    npm install node-red-contrib-arp
-    
+    npm install github:ristomatti/node-red-contrib-arp
+
 or
-    
+
 in the Node-red, Manage palette, Install node-red-contrib-arp
 
 
@@ -35,7 +35,7 @@ It is possible to filter the results by MAC address :<br>
 - in the node configuration, by providing MAC address (separated by commas if multiple).
 - in the input **msg.payload.macs** message string, by providing MAC address (separated by commas if multiple).
 
-### License 
+### License
 
 MIT License
-     
+
